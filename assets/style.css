@@ -1,0 +1,135 @@
+*{
+        
+    box-sizing: border-box;
+    font-family: Georgia;
+    
+}
+.return-prev{
+    padding:2%;
+    
+}
+Main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    border: black solid;
+    border-radius: 2%;
+    height:30vwvw;
+    margin:5%;
+    box-shadow: rgb(167, 136, 240) 5px 5px 5px 5px;
+   
+}
+#title{
+   position: absolute;
+   height:300px
+   
+   
+     
+    
+}
+#h1-quiz{
+    display: flex;
+    font-family: Georgia,;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.p1{
+    font-family: Georgia;
+    font-size: 32px;
+    text-align: center;
+    justify-items: center;
+    display:flex
+    
+
+}
+.timer{
+    font-family: Georgia;
+    text-align:right;
+    
+    
+
+    
+
+   
+    
+    
+}
+.timer .time-text{
+    font-size:23px;
+    display:flex;
+    justify-content: right;
+    
+    
+
+}
+.seconds{
+    font-size:23px;
+    display:flex;
+    justify-content: right;
+    padding-right: 2%;
+    margin-bottom: 10%;
+    
+    
+
+}
+.buttons{
+    
+    font-family: Georgia;
+    display:flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 5%;
+    border-radius: 2%;
+    
+   
+    
+    
+
+   
+}  
+.hidden{
+    display: none;
+} 
+#continue-quiz{
+    cursor: pointer;
+    font-weight:500;
+    font-family: Georgia;
+    font-size: 50px;
+    background-color: lightskyblue;
+
+
+    
+}
+#end-quiz{
+    cursor: pointer;
+    font-weight:500;
+    font-family: Georgia;
+    font-size: 50px;
+    background-color: salmon;
+
+}
+.questions{
+    font-family: Georgia;
+    font-size: 25px;
+    color: black;
+    border: black, solid;
+    text-align: center;
+    
+
+}
+.answers{
+    font-family: Georgia;
+    font-size: 20px;
+    text-align: left;
+    margin: 2% 35%;
+    justify-content: center;
+    background-color: rgb(209, 172, 243);
+    border: black solid;
+    cursor: pointer;
+    border-radius: 10%;
+    
+}
